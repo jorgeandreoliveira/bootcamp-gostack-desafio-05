@@ -1,18 +1,10 @@
 import React from 'react';
 
-import GlobalStyle from './styles/global';
-import Header from './components/Header';
-
-import { Container } from './styles';
-
 function App() {
   return (
-    <>
-    <Container>
-    <Header></Header>
-    </Container>
-    <GlobalStyle/>
-    </>
+  
+    <h1>Bootcamp 2019</h1>   
+  
   );
 }
 
